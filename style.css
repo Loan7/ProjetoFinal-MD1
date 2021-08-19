@@ -1,5 +1,14 @@
+body{
+    background-image: url("One-Piece.png");
+    background-size: cover;
+}
+
 h1{
     text-align: center;
+    background-color: lightskyblue;
+    border: 5px outset darkorange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkred;
 }
 
 .flexcounteiner{
@@ -41,4 +50,28 @@ img{
     height: 100%;
     border-radius: 10px;
 
+}
+
+.personas{
+    border: 5px outset darkorange;
+    border-radius: 10px ;
+    background-color:lightskyblue ;
+    font-family: fantasy;
+    color: darkred;
+}
+
+.characterDescrition{
+    border: 5px outset darkorange;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    padding: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color:darkred;
+
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
 }
