@@ -1,11 +1,14 @@
+        /* Index   */
+
 body{
-    background-image: url("One-Piece.png");
+    background-image: url("manga-one-piece-wallpaper-preview.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
-h1{
+.SelectChamp{
     text-align: center;
-    background-color: lightskyblue;
+    background-color: beige;
     border: 5px outset darkorange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:darkred;
@@ -52,18 +55,37 @@ img{
 
 }
 
-.personas{
+.personaluffy{
+
     border: 5px outset darkorange;
     border-radius: 10px ;
-    background-color:lightskyblue ;
+    background-color: beige ;
     font-family: fantasy;
     color: darkred;
+}
+
+.personazoro{
+
+    border: 5px outset darkorange;
+    border-radius: 10px ;
+    background-color: beige ;
+    font-family: fantasy;
+    color: green;
+}
+
+.personasanji{
+
+    border: 5px outset darkorange;
+    border-radius: 10px ;
+    background-color: beige ;
+    font-family: fantasy;
+    color: black;
 }
 
 .characterDescrition{
     border: 5px outset darkorange;
     border-radius: 10px;
-    background-color: lightskyblue;
+    background-color: beige;
     padding: 10px;
     font-size: 17px;
     font-family: sans-serif;
@@ -74,4 +96,72 @@ img{
 footer{
     text-align: center;
     font-weight: bold;
+}
+
+/*  Lobby/sinopse global     */
+
+.SinopseGlobal{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 6% 10%;
+    background-color: beige;
+    text-align: justify;
+    height: 20%;
+}
+
+.luffyDestaque{
+
+    font-size: 1.3em;
+    font-weight: bold;
+    color: darkred;
+}
+
+.zoroDestaque{
+
+    font-size: 1.3em;
+    font-weight: bold;
+    color: green;
+}
+.sanjiDestaque{
+
+    font-size: 1.3em;
+    font-weight: bold;
+    color: darkorange
+}
+
+.botaosinopse{
+    margin: 3% 30%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.botaosinopse:hover{
+    cursor: pointer;
+}
+
+
+/*  Pagina 1 luffy    */
+
+
+.escolhaglobal{
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 6% 10%;
+    background-color: beige;
+    text-align: justify;
+    height: 20%;
+}
+
+.responderbotao{
+
+    margin: 3% 30%;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
 }
